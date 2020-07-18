@@ -1,0 +1,58 @@
+//Fonts:
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@100;400&display=swap');
+
+$FontOswald: 'Oswald',
+sans-serif;
+$FontRoboto: 'Roboto',
+sans-serif;
+
+body {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+
+  h1,
+  h2 {
+    font-family: $FontOswald;
+  }
+
+  h1 {
+    font-weight: 300;
+  }
+
+  h2 {
+    font-weight: 600;
+  }
+
+  p,
+  h6 {
+    font-family: $FontRoboto;
+    font-weight: 100;
+  }
+
+  input,
+  button {
+    font-family: $FontRoboto;
+    font-weight: 400;
+    border-radius: 3px;
+
+    &::placeholder {
+      font-weight: 100;
+    }
+  }
+
+  button {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 8px 15px;
+    border: 5px solid darksalmon;
+    background-color: darksalmon;
+
+    &:hover {
+      border: 5px solid rgb(211, 120, 90);
+      background-color: rgb(219, 255, 219);
+    }
+  }
+}
