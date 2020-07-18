@@ -42,18 +42,14 @@
         }
     }
 
-.remove-btn {
-    border: 5px solid rgb(172, 236, 172);
-    background-color:rgb(172, 236, 172);
+    .remove-btn {
+        border: 5px solid rgb(228, 228, 228);
+        background-color: rgb(228, 228, 228);
 
-    &:hover {
-      border: 5px solid rgb(211, 120, 90);
-      background-color: rgb(219, 255, 219);
-    }
-}
-
-    .content {
-        padding-right: 20px;
+        &:hover {
+            border: 5px solid rgb(236, 230, 230);
+            background-color: rgb(236, 230, 230);
+        }
     }
 
     .image {
