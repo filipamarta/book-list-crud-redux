@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./Book.scss";
 import { connect } from "react-redux";
+import "./Book.scss";
 
 const Book = ({ book, deleteBook, updateBook }) => {
   const [isEdit, setIsEdit] = useState(false);
@@ -18,7 +18,7 @@ const Book = ({ book, deleteBook, updateBook }) => {
     <div className="book">
       {isEdit ? (
         <article>
-          <form onSubmit={(event) => handleSubmit(event)}>
+          <form className="updateBookForm" onSubmit={(event) => handleSubmit(event)}>
             <input
               name="title"
               value={title}
